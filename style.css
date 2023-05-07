@@ -1,0 +1,75 @@
+p {
+    margin-bottom: 0.65rem;
+}
+
+.info-card {
+    /*background-color: #EDEDED;
+    border: 1px solid #C8C8C8;
+    width: 320px;*/
+    height: 390px;
+    padding: 40px 20px;
+    border-radius: 8px;
+}
+
+.rounded {
+    border-radius: 1000px !important;
+}
+
+.project-card {
+    background-color: #F6F6F6;
+    border: 1px solid #DCDCDC;
+    padding: 30px 30px;
+    margin: 40px 30px;
+    border-radius: 8px;
+    box-shadow: 0 0.4rem 0.7rem rgba(0, 0, 0, 0.1);
+}
+
+a.project-title {
+    text-decoration: none !important;
+}
+
+a.project-title:hover {
+    text-decoration: none !important;
+}
+
+img.website-icon {
+    width: 34px;
+    height: 34px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+img.github-icon {
+    width: 32px;
+    height: 32px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+img.project-img {
+    width: 96px;
+    height: 96px;
+}
+
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.center {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.language-pill {
+    font-weight: 600;
+    border-radius: 4px;
+    padding: 4px 8px;
+    margin-left: 2px;
+    margin-right: 2px;
+    font-size: 12px;
+    vertical-align: -1px;
+}
